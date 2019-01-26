@@ -1,0 +1,27 @@
+
+table {
+    margin: 100px 0 0 100px;      
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead{
+    font-size:1.2em;
+}
+td {    
+   text-align: left;
+   width: auto;
+   padding: 0 30px 0 0;     
+}
+
+tr {         
+   box-sizing: border-box;
+   display: table-row;
+   border-bottom: 1px solid black; 
+   height: 50px;
+}
+
+tr.mytr {      
+   font-weight: 500;
+   font-size: 1em;
+}
